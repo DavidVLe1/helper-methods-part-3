@@ -14,7 +14,8 @@
     <% @movies.each do |movie| %>
       <div class="col-md-3 mb-3">
 
-        <%= render partial: "movies/movie_card", locals: { movie: movie } %>
+        <!--<%= render partial: "movies/movie", locals: { movie: movie } %>-->
+        <%= render movie %>
       </div>
     <% end %>
   </div>
